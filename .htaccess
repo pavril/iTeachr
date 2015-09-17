@@ -1,0 +1,32 @@
+RewriteEngine on
+
+RewriteOptions inherit
+AuthName "iTeachr"
+AuthUserFile "/home/smartcon/.htpasswds/public_html/iteachr/passwd"
+
+RewriteCond %{HTTP_REFERER} !^http://canvas.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://canvas.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://iteachr.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://iteachr.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://mynotes.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://mynotes.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://myphotobox.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://myphotobox.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.canvas.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.canvas.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.iteachr.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.iteachr.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.mynotes.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.mynotes.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.myphotobox.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.myphotobox.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://icecreamlovers.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://icecreamlovers.smartconstructions.net$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.icecreamlovers.smartconstructions.net/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.icecreamlovers.smartconstructions.net$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+

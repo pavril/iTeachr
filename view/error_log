@@ -1,0 +1,2 @@
+[05-Sep-2013 19:16:48 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DATABASE_HOST' (25) in /home/smartcon/public_html/iteachr/view/view.php on line 111
+[19-Sep-2013 12:06:52 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DATABASE_HOST' (25) in /home/smartcon/public_html/iteachr/view/view.php on line 118

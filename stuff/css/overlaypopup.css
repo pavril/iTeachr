@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+.main-content {
+	height: 800px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.changeemail {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	background: #000; /* fallback */
+	background: rgba(0,0,0,0.75);
+}
+
+.changepass {
+  display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	background: #000; /* fallback */
+	background: rgba(0,0,0,0.75);
+}
+
+	.box-content {
+		background: #fff;
+		padding: 1%;
+		width: 40%;
+		position: relative;
+		top: 15%;
+		left: 50%;
+		margin: 0 0 0 -20%; /* add negative left margin for half the width to center the div */
+		border-radius: 4px;
+		box-shadow: 0 0 5px rgba(0,0,0,0.9);
+	}
+
+	.close-btn-email {
+     background:none!important;
+     border:none; 
+     padding:0!important;
+	}
+  
+	.close-btn-email:hover {
+     background:none!important;
+     border:none; 
+     padding:0!important;
+     text-decoration:underline;
+    }
+    
+      .close-btn-pass {
+     background:none!important;
+     border:none; 
+     padding:0!important;
+	}
+  
+	.close-btn-pass:hover {
+     background:none!important;
+     border:none; 
+     padding:0!important;
+     text-decoration:underline;
+    }
